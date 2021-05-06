@@ -1,10 +1,11 @@
 {
-    "python.pythonPath": "C:\\Users\\yohan\\miniconda3\\python.exe",
+    "python.pythonPath": "D:\\Anaconda\\envs\\loop3\\python.exe",
     "cSpell.words": [
         "myfile"
     ],
     "cmake.configureOnOpen": false,
     "files.associations": {
         "algorithm": "cpp"
-    }
+    },
+    "restructuredtext.languageServer.disabled": true
 }

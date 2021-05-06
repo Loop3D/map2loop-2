@@ -655,7 +655,7 @@ def save_faults(path_faults, output_path, dtm, dtb, dtb_null, cover_map, c_l, fa
                         flt_ls.coords[len(flt_ls.coords)-1][1]
                     strike = sqrt((dlsx*dlsx)+(dlsy*dlsy))
                     if(strike > fault_min_len):
-
+                       
                         i = 0
                         saved = 0
                         for afs in flt_ls.coords:

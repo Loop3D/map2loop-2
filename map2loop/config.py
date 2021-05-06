@@ -460,6 +460,7 @@ class Config(object):
         maxlat = polygon_ll.total_bounds[3] + self.step_out
         print("Fetching DTM... ", end=" bbox:")
         print(minlong, maxlong, minlat, maxlat)
+        #source='QLD'
         if source in ("WA", "NSW", "VIC", "SA", "QLD", "ACT", "TAS"):
             source = 'AU'
             i, done = 0, False
